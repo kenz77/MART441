@@ -15,3 +15,15 @@ body {
 canvas {
     margin:auto;
 }
+body {
+    color: rgb(39.2%, 36.5%, 32.9%);
+    background-color: rgb(242, 232, 192);
+}
+    .main-container {
+      border: 2px double rgb(39.2%, 36.5%, 32.9%);
+        padding: 100px;}
+.main-container h1, h2 {
+  display: block;
+  background-color: white;
+  padding: 5px
+}
