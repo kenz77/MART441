@@ -4,6 +4,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu');
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+body {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    display: flex;
+}
+canvas {
+    margin:auto;
+}
+
 body {
    color: rgb(39.2%, 36.5%, 32.9%);
    background-color: rgb(242, 232, 192);
@@ -15,102 +27,6 @@ body {
  display: block;
  background-color: white;
  padding: 5px
-}
-
-
-
-/*------------------------------------------------------------------
-| This stylesheet is for the header and footer of the page or site. |
--------------------------------------------------------------------*/
-
-
-.main-container menu {
-   margin: 0;
-   margin-right: 2em;
-   padding: 0;
-   float: left;
-   width: 20%;
-   min-width: 200px;
-   height: 1000px;
-   background-color: #645D53;
-}
-
-.dropdown:hover .dropdown-content {
-   display: block;
-}
-
-.menuitem.dropdown-item {
-   font-size: 0.8em;
-   padding-left: 2em;
-   margin-top: 0.05em;
-   /*background-color: #27A2DE;*/
-   color: #fff;
-}
-
-.dropdown:hover .dropdown-content .side.menuitem.dropdown-item:hover {
-   background-color: #fff;
-   color: #27A2DE;
-}
-
-.menu-container {
-   background-color: #645D53;
-   margin: 0;
-   padding: 0;
-}
-
-.menu-container .menuitem {
-   display: inline-block;
-   display: inline-block;
-   width: 5em;
-   margin: auto;
-   padding: 0.5em 1em;
-   text-align: center;
-   text-decoration: none;
-   color: #f2e9c2;
-}
-
-.menu-container .menuitem:hover,
-.menu-container .dropdown:hover {
-   color: #fff;
-   background-color: #adc3b7;
-}
-
-.menu-container .dropdown {
-   display: inline-block;
-   width: 10%;
-   min-width: 7em;
-}
-
-.menu-container .dropdown-content {
-   display: none;
-   position: absolute;
-   /*border: 3px solid #71aabe;*/
-   margin: 0;
-   color: #000;
-   background-color: #645d53;
-   z-index: 1;
-}
-
-.menu-container .dropdown-content a {
-   color: #f2e9c2;
-   text-decoration: none;
-}
-
-.menu-container .menu-container .dropdown:hover .dropdown-content {
-   display: block;
-}
-
-.menu-container .dropdown-item {
-   display: block;
-   text-align: left;
-   margin: 0;
-   padding: 0.5em;
-   min-width: 8em;
-}
-
-.dropdown-item:hover, .dropdown-item:hover a {
-   color: #645d53 !important;
-   background-color: #adc3b7;
 }
 
 .lower-header {
