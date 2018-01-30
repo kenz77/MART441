@@ -17,7 +17,9 @@ canvas {
 }
 body {
     color: rgb(39.2%, 36.5%, 32.9%);
-    background-color: rgb(242, 232, 192);
+    background-color: rgb(242, 232, 152);
+    border: 2px double rgb(39.2%, 36.5%, 32.9%);
+      padding: 100px;
 }
     .main-container {
       border: 2px double rgb(39.2%, 36.5%, 32.9%);
@@ -26,20 +28,60 @@ body {
   display: block;
   background-color: white;
   padding: 5px
+  width: 50%
 }
-
+.main-contaner {
+  width: 50%;
+  border: 2px double rgb(39.2%, 36.5%, 32.9%);
+    padding: 100px;
+}
 #img1 {
   transform: rotate(-90deg);
+  align-items: right;
+  padding: 100px;
+
 }
 
 
 @media (max-width: 1000px) {
   body {
-      background-color: rgb(242, 232, 192);
+      background-color: rgb(200, 100, 100);
   }
   #img1 {
     max-width: 100%;
-    min-width: 48px;
+    min-width: 30px;
     min-height: 48px;
   }
+  @media (max-width: 450px) {
+    #img1 {
+
+    }
+  }
+<div>
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    text-align: center;
+}
+.blue {
+    background-color: #0057ff;
+    order: 2;
+    width: 16%;
+    height: 33%
+}
+@media (max-width: 1000px) {
+    .blue {
+        order: 2;
+        width: 33%;
+        height: 33%;
+    }
+@media (max-width: 550px) {
+    .blue {
+        order: 3;
+        width: 100%;
+        height: 33%;
+    }</div>
 }
