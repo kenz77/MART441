@@ -27,3 +27,19 @@ body {
   background-color: white;
   padding: 5px
 }
+
+#img1 {
+  transform: rotate(-90deg);
+}
+
+
+@media (max-width: 1000px) {
+  body {
+      background-color: rgb(242, 232, 192);
+  }
+  #img1 {
+    max-width: 100%;
+    min-width: 48px;
+    min-height: 48px;
+  }
+}
