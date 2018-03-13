@@ -26,7 +26,7 @@ Instead, you should use the appropriate methods, as mentioned in the readings.
 To begin, you should select the body element from the DOM, then remove its existing child nodes. You may then begin to create your web page.
 
 */
-var myImage = new Image(1280, 800);
+var myImage = new Image(1000, 800);
 myImage.src = "images/mug.jpeg"
 
 let body = document.body;
@@ -52,7 +52,7 @@ elmnt1.setAttribute("style","padding:0.5em; margin:0; font-family: sans-serif; t
 elmnt2.setAttribute("style","padding:0em; margin:0; font-weight: normal; font-family: sans-serif; text-align:center; color:#ffffff");
 elmnt3.setAttribute("style","padding:2em; margin:0; font-family: sans-serif; text-align:center; color:#ffffff");
 elmnt4.setAttribute("style","padding:0em; margin:0; font-family: sans-serif; text-align:center; color:#ffffff");
-elmnt5.setAttribute("href", "https://www.youtube.com/watch?v=8aCMpJMzGgE");
+elmnt5.setAttribute("href", "http://www.missoulaartmuseum.org/");
 elmnt6.setAttribute("style", "font-family: sans-serif; text-decoration: none; color:#067388; border-style: outset");
 
 
