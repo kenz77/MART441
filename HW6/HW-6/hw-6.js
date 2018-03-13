@@ -27,7 +27,7 @@ To begin, you should select the body element from the DOM, then remove its exist
 
 */
 var myPic = new Image(1280, 800);
-myPic.src = "imgs/laptop.jpeg"
+myPic.src = "images/mug.jpeg"
 
 let body = document.body;
 body.innerText = "";
