@@ -32,10 +32,9 @@ myPic.src = "images/mug.jpeg"
 let body = document.body;
 body.innerText = "";
 
-body.style.background = "rgb(250, 239, 237)";
+body.style.background = "rgb(38, 156, 98)";
 
 let elmnt = document.createElement("div");
-// element children
 let elmnt1 = document.createElement("h1");
 let elmnt2 = document.createElement("h2");
 let elmnt3 = document.createElement("p");
