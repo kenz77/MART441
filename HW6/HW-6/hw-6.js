@@ -26,8 +26,8 @@ Instead, you should use the appropriate methods, as mentioned in the readings.
 To begin, you should select the body element from the DOM, then remove its existing child nodes. You may then begin to create your web page.
 
 */
-var myPic = new Image(1280, 800);
-myPic.src = "images/mug.jpeg"
+var myImage = new Image(1280, 800);
+myImage.src = "images/mug.jpeg"
 
 let body = document.body;
 body.innerText = "";
@@ -48,15 +48,15 @@ elmnt4.innerText = "Here on this site is an example of what I've been working on
 elmnt5.innerText = "Click here to view artwork from other artists.";
 
 elmnt.setAttribute("style", "text-align: center");
-elmnt1.setAttribute("style","padding:0.5em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
-elmnt2.setAttribute("style","padding:0em; margin:0; font-weight: normal; font-family: sans-serif; text-align:center; color:#000000");
-elmnt3.setAttribute("style","padding:2em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
-elmnt4.setAttribute("style","padding:0em; margin:0; font-family: sans-serif; text-align:center; color:#000000");
+elmnt1.setAttribute("style","padding:0.5em; margin:0; font-family: sans-serif; text-align:center; color:#ffffff");
+elmnt2.setAttribute("style","padding:0em; margin:0; font-weight: normal; font-family: sans-serif; text-align:center; color:#ffffff");
+elmnt3.setAttribute("style","padding:2em; margin:0; font-family: sans-serif; text-align:center; color:#ffffff");
+elmnt4.setAttribute("style","padding:0em; margin:0; font-family: sans-serif; text-align:center; color:#ffffff");
 elmnt5.setAttribute("href", "https://www.youtube.com/watch?v=8aCMpJMzGgE");
 elmnt6.setAttribute("style", "font-family: sans-serif; text-decoration: none; color:#067388; border-style: outset");
 
 
-myPic.setAttribute("style", "padding:0em; margin:100px");
+myImage.setAttribute("style", "padding:0em; margin:100px");
 
 elmnt.appendChild(elmnt1);
 elmnt.appendChild(elmnt2);
