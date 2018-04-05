@@ -25,74 +25,6 @@ body{
 }
 #page{ margin: 20px; }
 
-/*#logo{
-	width: 35%;
-	margin-top: 5px;
-	font-family: georgia;
-	display: inline-block;
-}*/
-#nav{
-	width: 60%;
-	display: inline-block;
-	text-align: right;
-	float: right;
-}
-	#nav ul{}
-		#nav ul li{
-			display: inline-block;
-			height: 62px;
-		}
-			#nav ul li a{
-				padding: 20px;
-				background: orange;
-				color: white;
-			}
-			#nav ul li a:hover{
-				background-color: #ffb424;
-				box-shadow: 0px 1px 1px #666;
-			}
-			#nav ul li a:active{ background-color: #ff8f00; }
-
-#content{
-	margin: 30px 0;
-	background: white;
-	padding: 20px;
-	clear: both;
-}
-#footer{
-	border-bottom: 1px #ccc solid;
-	margin-bottom: 10px;
-}
-	#footer p{
-		text-align: right;
-		text-transform: uppercase;
-		font-size: 80%;
-		color: grey;
-	}
-
-#content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
-
-/*body {
-    color: rgb(39.2%, 36.5%, 32.9%);
-    background-color: rgb(242, 232, 192);
-}
-    .main-container {
-      border: 2px double rgb(39.2%, 36.5%, 32.9%);
-        padding: 100px;}
-.main-container h1, h2 {
-  display: block;
-  background-color: white;
-  padding: 5px
-}
-
-<meta name= "viewport" content="width=device-width, inisial-scale=1.0">
-<link rel="stylesheet" href="index.html">
-<link rel="stylesheet" media="screen and (min-width: 550px)">
-<a href="style.css"
-<link rel="stylesheet" media="screen and (min-width: 700px)"
-href="index.html"*/
-
 body, html{margin:0px; padding:0px;}
 body{font-family: 'Source Code Pro', sans-serif;background:#222; padding:2%; color:#eee;}
 *, *:after, *:before {
@@ -112,14 +44,6 @@ h1{
   text-align:center;
   margin:0px;
 }
-img{
-  image-align: center;
-}
-#drop{
-  height: 34px;
-  width: 34px;
-  margin: 0 auto;
-}
 p{
   text-align: center;
   margin:0px 0px 2.2em;
@@ -127,29 +51,7 @@ p{
   color: #999;
   line-height: 30px;
 }
-/*a{color:#28D9E8;text-decoration:none;}
-a:hover{text-decoration:underline;}*/
-ul {
-  float:right;
-  width:100%;
-  list-style-type: none;
-  margin: none;
-  padding: 0;
-  display: block;
-  padding:none;
-  background:rgba(0,0,0,0.1);
-}*/
-li {
-  display: block;
-  float: left;
-  width: 20%;
-}
-ul.x2{
-  width:98%;
-}
-ul.x2 li{
-  width:10%;
-}
+
 input {
   font-family: 'Arial', sans-serif;
   display: block;
@@ -209,46 +111,12 @@ h1, h2, h3, h4{
 	margin: 0 0 .5em 0;
 }
 h1{ font-size: 1.7em; }
-h2{ font-size: 1.5em; }
 a{
 	color: black;
 	text-decoration: none;
 }
-	a:hover,
-	a:active{ text-decoration: underline; }
 
-body{
-    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
-}
 #page{ margin: 20px; }
-
-#logo{
-	width: 35%;
-	margin-top: 5px;
-	font-family: georgia;
-	display: inline-block;
-}
-#nav{
-	width: 60%;
-	display: inline-block;
-	text-align: right;
-	float: right;
-}
-	#nav ul{}
-		#nav ul li{
-			display: inline-block;
-			height: 62px;
-		}
-			#nav ul li a{
-				padding: 20px;
-				background: #0B486B;
-				color: white;
-			}
-			#nav ul li a:hover{
-				background-color: #ffb424;
-				box-shadow: 0px 1px 1px #666;
-			}
-			#nav ul li a:active{ background-color: #ff8f00; }
 
 #content{
 	margin: 30px 0;
@@ -269,3 +137,82 @@ body{
 
 #content,
 ul li a{ box-shadow: 0px 1px 1px #999; }
+
+#runButton {
+  font-size: 10px;
+  font-weight: 200;
+ background-color: #61c271;
+ color:white;
+ border-color:#61c271;
+ border-width: 3px;
+ font-family: "verdana", cursive;
+ text-transform: uppercase;
+ border-radius: 20px;
+ border-style: ridge;
+ position: relative;
+ margin: auto;
+ top: 1em;
+ padding: 1em;
+ width: 9em;
+ text-align: center;
+ cursor:pointer;
+}
+
+#runButton:hover{
+  background-color:#d2f5eb;
+  color: white;
+}
+
+#b1 {
+  font-family: "verdana",cursive;
+  font-size: 14px;
+  font-weight: 400;
+ text-shadow: 2px 2px black;
+ background-color:#61c271;
+ color:black;
+ border-color:showHideText;
+ border-width: 3px;
+ text-transform: uppercase;
+ border-radius: 40px;
+ border-style: ridge;
+ position: relative;
+ margin: auto;
+ top: 1em;
+ padding: 0.5em;
+ width: 6em;
+ text-align: center;
+ cursor: pointer;
+}
+
+#b1:hover{
+  background-color: grey;
+  border-color: white;
+  text-shadow: 2px 2px white;
+}
+
+#b2 {
+ font-size: 14px;
+ color: black;
+ font-weight: 400;
+ background-color:#61c271;
+ border-color:white;
+ border-width: 3px;
+ font-family:"verdana",cursive;
+ text-transform: uppercase;
+ text-shadow: 2px 2px black;
+ border-radius: 40px;
+ border-style: ridge;
+ position: relative;
+ margin: auto;
+ top: 1em;
+ padding: 0.5em;
+ width: 6em;
+ text-align: center;
+ cursor: pointer;
+}
+
+#b2:hover {
+  background-color:grey;
+  border-color:white;
+  text-shadow: 2px 2px white;
+}
