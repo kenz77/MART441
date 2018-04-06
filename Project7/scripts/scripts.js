@@ -8,7 +8,6 @@ let btEl2 = document.querySelector('#b2');
 let textEl = document.querySelector(".extra-text-container");
 let textEl2 = document.querySelector(".another-text-container");
 let textEl3 = document.querySelector(".original-text-container");
-let imgEl1 = document.querySelector(".img1");
 let divEl1 = document.querySelector(".storageDiv");
 let divEl2= document.querySelector(".slideshow-container")
 let formEl1 = document.querySelector(".nameForm");
@@ -45,12 +44,7 @@ function grabText() {
     let textIn;
     textIn = document.querySelector("#textIn1").value;
 
-    if( textIn.length < 1){ alert("Please refresh the browser and enter a name!"); return }
-
-
-    let textToAdd = document.createTextNode("Hello "+textIn+" welcome to the question!");
-    let textToAdd2 = document.createTextNode(textIn+ " is freedom of choice an illusion?");
-    let textToAdd3 = document.createTextNode("You must make the choice " +textIn+ ".");
+    if( textIn.length < 1){ alert("enter a name!"); return }
 
     let newP = document.createElement("P");
     let newP2= document.createElement("P");
@@ -81,8 +75,6 @@ function showHideText() {
         btEl2.hidden=true;
         el.hidden=true;
 
-        body.style.background = "#030303 url('images/orangeBack.jpg') repeat right top";
-        setTimeout(()=>{body.style.background = "#030303 url('images/orangeBack2.jpg') repeat right top" ;}, 3000 );
 
     } else {
         btEl.innerText = "Hide in Closet";
@@ -93,9 +85,6 @@ function showHideText() {
         textEl3.hidden=false;
         btEl2.hidden=false;
         el.hidden=false;
-
-
-                body.style.background = "red url('images/darkBack.jpg') repeat right top";
 
     }
 }
@@ -112,8 +101,6 @@ function showHideText2() {
         btEl.hidden=true;
         el.hidden=true;
 
-        body.style.background = "#030303 url('images/orangeBack.jpg') repeat right top";
-        setTimeout(()=>{body.style.background = "#030303 url('images/orangeBack2.jpg') repeat right top" ;}, 3000 );
 
     } else {
         btEl2.innerText = "Go Outside";
@@ -125,16 +112,4 @@ function showHideText2() {
         btEl.hidden=false;
         el.hidden=false;
 
-        body.style.background = "#030303 url('images/darkBack.jpg') repeat right top";
-    }
-}
-
-
-body.style.padding = "0 em";
-body.style.margin="0 em";
-body.style.background = "#030303 url('./images/darkBack.jpg') repeat right top";
-
-el.appendChild(elChild);
-el.appendChild(elChild2);
-el.appendChild(elChild3)
 body.appendChild(el);
