@@ -13,12 +13,6 @@ let divEl1 = document.querySelector(".storageDiv");
 let divEl2= document.querySelector(".slideshow-container")
 let formEl1 = document.querySelector(".nameForm");
 
-elChild.innerText = "CHOOSE WISELY";
-elChild2.innerText="There are choices that seem easy and some that seem difficult. In the end the flapping of a butterflies wings can change the world, so how are we to know if our choices are correct?";
-elChild3.innerText="Perhaps we have already made our choices, for better or worse. Perhaps we only need to understand the choices we have made.";
-elChild2.setAttribute("style","padding:0em; margin:0; font-style:italic; text-align:center; color: white;  text-shadow: 2px 2px #030303;");
-elChild3.setAttribute("style","padding:0em; margin:0;  font-style:italic;  text-align:center; color:white;  text-shadow: 2px 2px #030303;");
-
 btEl.addEventListener("click", showHideText);
 btEl2.addEventListener("click", showHideText2);
 
@@ -39,7 +33,7 @@ function showSlides() {
 
     if (slideIndex > slides.length) {slideIndex = 1}
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[i].className = dots[i].className.replace(" active");
     }
 
     slides[slideIndex-1].style.display = "block";
@@ -87,11 +81,11 @@ function showHideText() {
         btEl2.hidden=true;
         el.hidden=true;
 
-        body.style.background = "#030303 url('images/lightBack.jpg') repeat right top";
-         setTimeout(()=>{body.style.background = "#030303 url('images/blueBack.jpg') repeat right top" ;}, 3000 );
+        body.style.background = "#030303 url('images/orangeBack.jpg') repeat right top";
+        setTimeout(()=>{body.style.background = "#030303 url('images/orangeBack2.jpg') repeat right top" ;}, 3000 );
 
     } else {
-        btEl.innerText = "Red Button";
+        btEl.innerText = "Hide in Closet";
         textEl.hidden = true;
         divEl2.hidden=true;
         formEl1.hidden = false;
@@ -100,7 +94,9 @@ function showHideText() {
         btEl2.hidden=false;
         el.hidden=false;
 
-        body.style.background = "#030303 url('./images/darkBack.jpg') repeat right top";
+
+                body.style.background = "red url('images/darkBack.jpg') repeat right top";
+
     }
 }
 
@@ -120,7 +116,7 @@ function showHideText2() {
         setTimeout(()=>{body.style.background = "#030303 url('images/orangeBack2.jpg') repeat right top" ;}, 3000 );
 
     } else {
-        btEl2.innerText = "Blue Button";
+        btEl2.innerText = "Go Outside";
         textEl2.hidden = true;
         imgEl1.hidden=true;
         formEl1.hidden=false;

@@ -1,8 +1,6 @@
 * {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'verdana', sans-serif;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu');
 
 p{ line-height: 1em; }
 h1, h2, h3, h4{
@@ -11,7 +9,7 @@ h1, h2, h3, h4{
 	line-height: 1.1em;
 	margin: 0 0 .5em 0;
 }
-h1{ font-size: 1.7em; }
+h1{ font-size: 3.1em; }
 h2{ font-size: 1.5em; }
 a{
 	color: black;
@@ -26,7 +24,7 @@ body{
 #page{ margin: 20px; }
 
 body, html{margin:0px; padding:0px;}
-body{font-family: 'Source Code Pro', sans-serif;background:#222; padding:2%; color:#eee;}
+body{font-family: 'verdana', sans-serif;background:#222; padding:2%; color:#eee;}
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -37,10 +35,10 @@ body{font-family: 'Source Code Pro', sans-serif;background:#222; padding:2%; col
   transition: all 0.2s ease-out;
 }
 h1{
-  font-family: 'Dorsa', sans-serif;
+  font-family: 'verdana', sans-serif;
   font-weight:100;
   letter-spacing:1px;
-  font-size:110px;
+  font-size:150px;
   text-align:center;
   margin:0px;
 }
@@ -53,7 +51,7 @@ p{
 }
 
 input {
-  font-family: 'Arial', sans-serif;
+  font-family: 'verdana', sans-serif;
   display: block;
   width: 100%;
   border: 0;
@@ -102,14 +100,6 @@ p {
     font-size: 20px;
 }
 
-
-p{ line-height: 1em; }
-h1, h2, h3, h4{
-    color: #0B486B;
-	font-weight: normal;
-	line-height: 1.1em;
-	margin: 0 0 .5em 0;
-}
 h1{ font-size: 1.7em; }
 a{
 	color: black;
